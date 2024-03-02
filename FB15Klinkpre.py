@@ -26,7 +26,7 @@ def load_data(filename):
 
 def preprocess_data(data):
     """
-    Preprocess the data for model usage.
+    The Preprocess the data for model usage.
     """
     label_encoder = LabelEncoder()
     data['head'] = label_encoder.fit_transform(data['head'])
